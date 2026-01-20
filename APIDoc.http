@@ -1,0 +1,30 @@
+###
+GET  http://127.0.0.1:8000/food/
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/food/
+Content-Type: application/json
+
+{
+  "title": "Chicken Butter Masala",
+  "cuisine": "Indian",
+  "category": "non-veg",
+  "price": 280,
+  "meal_type": "dinner"
+}
+
+###
+GET http://127.0.0.1:8000/food/2/
+Accept: application/json
+
+###
+PUT http://127.0.0.1:8000/food/2/
+Content-Type: application/json
+
+{
+ "category": "non-veg"
+}
+
+###
+DELETE http://127.0.0.1:8000/food/1/
