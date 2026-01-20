@@ -7,11 +7,11 @@ POST http://127.0.0.1:8000/food/
 Content-Type: application/json
 
 {
-  "title": "Chicken Butter Masala",
-  "cuisine": "Indian",
-  "category": "non-veg",
-  "price": 280,
-  "meal_type": "dinner"
+  "title": "Veg Tacos",
+  "cuisine": "Mexican",
+  "category": "veg",
+  "price": 200,
+  "meal_type": "snacks"
 }
 
 ###
@@ -27,4 +27,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://127.0.0.1:8000/food/1/
+DELETE http://127.0.0.1:8000/food/2/
